@@ -36,4 +36,4 @@ phases:
       - echo publishing ${CODEBUILD_GIT_TAG} to npm
       - npm --no-git-tag-version version v5.0.0-alpha.36
       - jfrog rt npm-publish --build-name=${BUILD_NAME} --build-number=v5.0.0-alpha.36
-      - echo "successfully pushed the npm package"
+      - echo "successfully pushed the npm package to Jfrog"
